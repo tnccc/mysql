@@ -1,0 +1,6 @@
+SHOW DATABASES;
+USE my_db;
+SELECT * FROM people;
+
+# TRUNCATE 
+TRUNCATE people;
