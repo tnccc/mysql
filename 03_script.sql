@@ -1,0 +1,17 @@
+SELECT DATABASE ();
+CREATE TABLE students(
+	id INT PRIMARY KEY,
+	name CHAR(10)
+)
+
+SHOW TABLES FROM my_db;
+INSERT INTO students VALUES(1, "ABCDEF  ")
+
+# nameをCHAR => VARCHARに変更
+ALTER TABLE students MODIFY name VARCHAR(10);
+
+INSERT INTO students VALUES(2, 'ABCDEF   ');
+SELECT name, CHAR_LENGTH(name)FROM students;
+
+ALTER TABLE students MODIFY 
+SELECT * FROM students;
