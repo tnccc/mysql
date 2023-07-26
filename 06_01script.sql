@@ -1,4 +1,4 @@
--- IF(条件式, 真の値, 偽の値)
+ 06_script02.sql-- IF(条件式, 真の値, 偽の値)
 SELECT IF(10 < 20, "A", "B");
 SELECT * FROM users;
 DESCRIBE users;
