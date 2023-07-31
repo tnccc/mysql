@@ -33,4 +33,12 @@ VALUES
 # 2の追加を確認
 SELECT * FROM kakaku;
 
+# テスト1
+CREATE TABLE test (
+	品物 VARCHAR(10),
+	種類 VARCHAR(5) NOT NULL,
+	売上 INT
+)
 
+# テスト2
+ALTER TABLE FROM test MODIFY 種類 VARCHAR(5) NOT NULL;
